@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meckeys Diwali Sale</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://www.meckeys.com/wp-content/uploads/2023/07/cropped-logo_black_favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <section>
+        <img src="Stars.png" alt="stars" id="stars">
+        <!-- <img src="firework.png" alt=""> -->
+        <img src="lantern-left.png" alt="lantern-left" id="lantern_left">
+        <img src="lantern-right.png" alt="lantern-right" id="lantern_right">
+        <div class="text-main">
+            <h4 class="h3-main" id="smalltext">MECKEYS</h4>
+            <h2 id="text">Diwali Sale</h2>
+            <a href="#sec" class="btn" id="btn">Explore</a>
+        </div>
+        <img src="Buildings.png" alt="buildings" class="buildings" id="buildings">
+        <!-- Mobile Section -->
+        <img src="Stars-Mobile.png" alt="stars" id="stars-small" class="hidden">
+        <img src="lantern-left-mobile.png" alt="lantern-left" id="lantern_left-small" class="hidden">
+        <img src="lantern-right-mobile.png" alt="lantern-right" id="lantern_right-small" class="hidden">
+    </section>
+
+    <div class="everything-else">
+        <div class="main-body">
+            <img src="bg-element-1.png" alt="" class="bg-image">
+            <div class="sec" id="sec">
+            <h1>KEYBOARD DEALS</h1>
+            <div class="keyboard">
+                <div class="sides">
+                    <div class="left side" onclick="window.open('https://www.meckeys.com/shop/keyboard/60-keyboard/ducky-yellow-one-3-mini/', '_blank');">
+                    <div class="text-section">
+                        <h2>DUCKY YELLOW</h2>
+                        <div class="side-h3">
+                            <h3>Rs 7,400</h3>
+                            <h4><s>Rs 9,199</s></h4>
+                        </div>
+                    </div>
+                    <img src="./Keyboard/DuckyYellow.png" alt="DuckyYellow">
+                </div>
+                <div class="middle side" onclick="window.open('https://www.meckeys.com/shop/keyboard/60-keyboard/ducky-yellow-one-3-mini/', '_blank');">
+                    <div class="text-section">
+                        <h2>HELLO GANSS</h2>
+                        <div class="side-h3">
+                            <h3>Rs 7,999</h3>
+                            <h4><s>Rs 9,999</s></h4>
+                        </div>
+                    </div>
+                    <img src="./Keyboard/HelloGanss.png" alt="HelloGanss">
+                </div>
+                <div class="right side" onclick="window.open('https://www.meckeys.com/shop/keyboard/60-keyboard/ducky-yellow-one-3-mini/', '_blank');">
+                    <div class="text-section">
+                        <h2>DUCKY ONE 2 SERIES</h2>
+                        <div class="side-h3">
+                            <h3>Rs 8,399</h3>
+                            <h4><s>Rs 10,499</s></h4>
+                        </div>
+                    </div>
+                    <img src="/Keyboard/DuckyOne2.png" alt="DuckyOne2" style="margin-left: 5%;">
+                    
+                </div>
+                </div>
+            </div>            
+        </div>
+        <div class="main-body">
+            <img src="bg-element-1.png" alt="" class="bg-image">
+            <div class="sec" id="sec">
+            <h1>KEYBOARD DEALS</h1>
+            <div class="keyboard">
+                <div class="sides">
+                <div class="left side">
+                    <div class="text-section">
+                        <h2>DUCKY YELLOW</h2>
+                        <div class="side-h3">
+                            <h3>Rs 7,400</h3>
+                            <h4><s>Rs 9,199</s></h4>
+                        </div>
+                    </div>
+                    <img src="./Keyboard/DuckyYellow.png" alt="DuckyYellow">
+                </div>
+                <div class="middle side">
+                    <div class="text-section">
+                        <h2>HELLO GANSS</h2>
+                        <div class="side-h3">
+                            <h3>Rs 7,999</h3>
+                            <h4><s>Rs 9,999</s></h4>
+                        </div>
+                    </div>
+                    <img src="./Keyboard/HelloGanss.png" alt="HelloGanss">
+                </div>
+                <div class="right side">
+                    <div class="text-section">
+                        <h2>DUCKY ONE 2 SERIES</h2>
+                        <div class="side-h3">
+                            <h3>Rs 8,399</h3>
+                            <h4><s>Rs 10,499</s></h4>
+                        </div>
+                    </div>
+                    <img src="/Keyboard/DuckyOne2.png" alt="DuckyOne2" style="margin-left: 5%;">
+                    
+                </div>
+                </div>
+            </div>            
+        </div>
+    </div>
+    
+    <button id="scrollUpButton">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+          </svg>
+    </button>
+
+    <script>
+        const scrollToTopButton = document.getElementById('scrollUpButton');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 400) {
+                
+                scrollToTopButton.style.display = 'block';
+            } else {
+                scrollToTopButton.style.display = 'none';
+            }
+        });
+        scrollToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }); 
+    
+    </script>
+
+    <script>
+        let stars = document.getElementById('stars');
+        let lantern_left = document.getElementById('lantern_left');
+        let lantern_right = document.getElementById('lantern_right');
+        let buildings = document.getElementById('buildings');
+        let text = document.getElementById('text');
+        let smalltext = document.getElementById('smalltext');
+        let btn = document.getElementById('btn');
+        let stars_small = document.getElementById('stars-small');
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            stars.style.left = value * 0.5 +'px';
+            lantern_left.style.top = value * 1.05 +'px';
+            lantern_right.style.top = value * 0.9 +'px';
+            buildings.style.top = value * 1.1 +'px';
+            text.style.marginTop = value*2.0 + 'px';
+            smalltext.style.marginTop = value*1.7 + 'px';
+            btn.style.marginTop = value*2.3 + 'px';
+            stars_small.style.left = value * 0.5 +'px';
+        })
+    </script>
+</body>
+</html>
