@@ -13,16 +13,19 @@
     #stars-small {
         display: block;
     }
-    #lantern_left-small {
-        display: block;
-        top: -15%;
+    .sides {
+        display: flex;
+        flex-direction: column;
     }
-    #lantern_right-small {
-        display: block;
-        top: 10%;
-    }
-}
 
+    .h1-main{
+        font-size: 100px!important;
+    }
+
+}
+.sides{
+    display: flex;
+}
 *{
     margin: 0;
     padding: 0;
@@ -218,8 +221,5 @@ section img{
     margin-bottom: -20px;
 }
 
-.sides{
-    display: flex;
-    flex-direction: row;
-}
+
 
