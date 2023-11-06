@@ -139,6 +139,6 @@ section img{
 
 
 
-/* .sec{
-    background:linear-gradient(#190343,#280070);
-} */
+.sec img{
+    width: 100%;
+}
