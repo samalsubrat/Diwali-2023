@@ -67,7 +67,7 @@ section img{
 
 #text{
     position: absolute;
-    font-size: 155px;
+    font-size: 10rem;
     top: 30%;
 }
 
@@ -94,8 +94,8 @@ section img{
 }
 .h4{
     position: absolute;
-    top: 28%;
-    font-size: 40px;
+    top: 29%;
+    font-size: 2.5rem;
 }
 
 .btn:hover{
