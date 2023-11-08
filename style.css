@@ -30,13 +30,14 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
     overflow-x: hidden;
+   
 }
 
 body
 {
     min-height: 100vh;
     background:linear-gradient(#280070,#ffffff);
-    
+    color: #fff;
 }
 
 section
@@ -66,10 +67,14 @@ section img{
 
 #text{
     position: absolute;
-    color: #fff;
-    white-space: nowrap;
     font-size: 155px;
     top: 30%;
+}
+
+#h2{
+    position: absolute;
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 
@@ -87,24 +92,10 @@ section img{
 .buildings{
     z-index: 101;
 }
-.h3-main{
+.h4{
     position: absolute;
     top: 28%;
     font-size: 40px;
-    color: #fff;
-}
-
-.btn{
-    position: absolute;
-    text-decoration: none;
-    color: #190343;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 10px 25px;
-    background-color: #fff;
-    border-radius: 50px;
-    z-index: 1000;
-    top: 50%;
 }
 
 .btn:hover{

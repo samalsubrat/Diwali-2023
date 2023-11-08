@@ -16,9 +16,9 @@
         <img src="fireworks.png" alt="lantern-right" id="lantern_right">
 
         <div class="text-main">
-            <h4 class="h3-main" id="smalltext" style="font-family: 'Roboto', sans-serif;">MECKEYS</h4>
+            <h4 class="h4" id="smalltext" style="font-family: 'Roboto', sans-serif;">MECKEYS</h4>
             <h2 id="text">Diwali Sale</h2>
-            <!-- <a href="#sec" class="btn" id="btn">Explore</a> -->
+            <h2 id="h2">10-15th November</h2>
         </div>
         <img src="Buildings.png" alt="buildings" class="buildings" id="buildings">
         <!-- Mobile Section -->
@@ -63,7 +63,7 @@
         let buildings = document.getElementById('buildings');
         let text = document.getElementById('text');
         let smalltext = document.getElementById('smalltext');
-        let btn = document.getElementById('btn');
+        let h2 = document.getElementById('h2');
         let stars_small = document.getElementById('stars-small');
         window.addEventListener('scroll', function(){
             let value = window.scrollY;
@@ -73,7 +73,7 @@
             buildings.style.top = value * 1.1 +'px';
             text.style.marginTop = value*2.0 + 'px';
             smalltext.style.marginTop = value*1.7 + 'px';
-            btn.style.marginTop = value*2.3 + 'px';
+            h2.style.marginTop = value*2.3 + 'px';
             stars_small.style.left = value * 0.5 +'px';
         })
     </script>
