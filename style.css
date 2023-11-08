@@ -21,6 +21,10 @@
         display: block;
         top: 10%;
     }
+
+    #text{
+        font-size: 5rem;
+    }
 }
 
 *{
