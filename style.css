@@ -79,6 +79,7 @@ section img{
     position: absolute;
     font-size: 2rem;
     font-weight: 600;
+    top: 55%;
 }
 
 
@@ -90,9 +91,6 @@ section img{
     gap: 10px;
     z-index: 100;
 }
-
-
-
 .buildings{
     z-index: 101;
 }
@@ -102,9 +100,7 @@ section img{
     font-size: 2.5rem;
 }
 
-.btn:hover{
-    cursor: pointer;
-}
+
 
 #scrollUpButton {
     display: none;
@@ -143,16 +139,16 @@ section img{
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .images img{
-    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 10;
+    z-index: 100;
     object-fit: cover;
-    pointer-events: none;
 }
 
 .images img:hover{
