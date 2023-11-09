@@ -23,7 +23,7 @@
     }
 
     #text{
-        font-size: 80px;
+        font-size: 100px;
     }
 }
 
@@ -79,7 +79,6 @@ section img{
     position: absolute;
     font-size: 2rem;
     font-weight: 600;
-    top: 55%;
 }
 
 
@@ -91,6 +90,9 @@ section img{
     gap: 10px;
     z-index: 100;
 }
+
+
+
 .buildings{
     z-index: 101;
 }
@@ -100,7 +102,9 @@ section img{
     font-size: 2.5rem;
 }
 
-
+.btn:hover{
+    cursor: pointer;
+}
 
 #scrollUpButton {
     display: none;
@@ -129,28 +133,7 @@ section img{
 }
 
 
-.images
-{
-    position: relative;
+
+.sec img{
     width: 100%;
-    height: 100%;
-    display: flex;
-    padding-top: 7349px;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-.images img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    object-fit: cover;
-}
-
-.images img:hover{
-cursor: pointer;
 }
