@@ -22,8 +22,12 @@
         top: 10%;
     }
 
-    #text{
-        font-size: 100px;
+    #text-mobile, #date-mobile, #logo-mobile{
+    display: block;
+    }
+
+    #text, #h2, #smalltext{
+        display: none;
     }
 }
 
@@ -69,7 +73,7 @@ section img{
 }
 
 
-#text{
+/* #text{
     position: absolute;
     font-size: 10rem;
     top: 30%;
@@ -89,18 +93,16 @@ section img{
     justify-content: space-between;
     gap: 10px;
     z-index: 100;
-}
-
-
+} */
 
 .buildings{
     z-index: 101;
 }
-.h4{
+/* .h4{
     position: absolute;
     top: 29%;
     font-size: 2.5rem;
-}
+} */
 
 .btn:hover{
     cursor: pointer;
@@ -133,7 +135,9 @@ section img{
 }
 
 
-
+.hiddenMobile{
+    display: none;
+}
 .sec img{
     width: 100%;
 }

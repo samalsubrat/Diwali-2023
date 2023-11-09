@@ -6,25 +6,37 @@
     <title>Meckeys Diwali Sale</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="https://www.meckeys.com/wp-content/uploads/2023/07/cropped-logo_black_favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Questrial&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
 </head>
 <body>
     <section>
         <img src="Stars.png" alt="stars" id="stars">
-        <!-- <img src="firework.png" alt=""> -->
         <img src="lantern-left.png" alt="lantern-left" id="lantern_left">
         <img src="lantern-right.png" alt="lantern-right" id="lantern_right">
         <img src="fireworks.png" alt="lantern-right" id="lantern_right">
-
-        <div class="text-main">
+        <!-- <div class="text-main">
             <h4 class="h4" id="smalltext" style="font-family: 'Roboto', sans-serif;">MECKEYS</h4>
             <h2 id="text">Diwali Sale</h2>
             <h2 id="h2">10-15th November</h2>
-        </div>
+        </div> -->
+
+        <img src="Diwali-Sale-Text.png" alt="" id="text" >
+        <img src="10-15November.png" alt="" id="h2">
+        <img src="Meckeys.png" alt="" id="smalltext">
         <img src="Buildings.png" alt="buildings" class="buildings" id="buildings">
+
+        
         <!-- Mobile Section -->
         <img src="Stars-Mobile.png" alt="stars" id="stars-small" class="hidden">
         <img src="lantern-left-mobile.png" alt="lantern-left" id="lantern_left-small" class="hidden">
         <img src="lantern-right-mobile.png" alt="lantern-right" id="lantern_right-small" class="hidden">
+
+        <img src="Diwali-Sale-Text-Mobile.png" alt="" id="text-mobile" class="hiddenMobile">
+        <img src="10-15November-Mobile.png" alt="" id="date-mobile" class="hiddenMobile">
+        <img src="Meckeys-Mobile.png" alt="" id="logo-mobile" class="hiddenMobile">
+
     </section>
 
     <div class="sec">
@@ -64,17 +76,25 @@
         let text = document.getElementById('text');
         let smalltext = document.getElementById('smalltext');
         let h2 = document.getElementById('h2');
-        let stars_small = document.getElementById('stars-small');
+        let stars_small = document.getElementById('stars-small');  
+        let textmobile = document.getElementById('text-mobile');
+        let datemobile = document.getElementById('date-mobile');
+        let logomobile = document.getElementById('logo-mobile');
+
+
         window.addEventListener('scroll', function(){
             let value = window.scrollY;
             stars.style.left = value * 0.5 +'px';
             lantern_left.style.top = value * 1.05 +'px';
             lantern_right.style.top = value * 0.9 +'px';
             buildings.style.top = value * 1.1 +'px';
+            stars_small.style.left = value * 0.5 +'px';
             text.style.marginTop = value*2.0 + 'px';
             smalltext.style.marginTop = value*1.7 + 'px';
             h2.style.marginTop = value*2.3 + 'px';
-            stars_small.style.left = value * 0.5 +'px';
+            textmobile.style.marginTop = value*2.0 + 'px';
+            datemobile.style.marginTop = value*2.3 + 'px';
+            logomobile.style.marginTop = value*1.7 + 'px';
         })
     </script>
 </body>
